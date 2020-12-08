@@ -1,5 +1,8 @@
 package org.event.database.exception;
 
+/**
+ * event-alert error codes.
+ */
 public enum AlertSystemExceptionCode {
 
     EVENT_ALERT_PERSISTENCE_ERROR(2000, "Error persisting Event Alert"),

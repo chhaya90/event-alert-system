@@ -10,6 +10,9 @@ import org.event.database.writer.WriteEvent;
 import org.event.dto.LogEvent;
 import org.event.processor.AlertManager;
 
+/**
+ * Main application class to read log event input and write alerts.
+ */
 public class Main {
     public static void main(String[] args) throws AlertSystemException {
         InputReader input = new FileReader(RESOURCE_FILE_PATH);

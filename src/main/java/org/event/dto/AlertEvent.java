@@ -2,6 +2,9 @@ package org.event.dto;
 
 import java.sql.Timestamp;
 
+/**
+ * Class to store and represent Alert Event information.
+ */
 public class AlertEvent {
     private Timestamp duration;
     private String id;

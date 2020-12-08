@@ -1,5 +1,6 @@
 package org.event.dto;
 
+
 public class Event {
     LogEvent started;
     LogEvent finished;

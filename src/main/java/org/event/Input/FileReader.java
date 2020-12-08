@@ -10,6 +10,9 @@ import org.event.processor.EventManager;
 import org.event.utils.ResourceLoaderUtils;
 import com.google.gson.Gson;
 
+/**
+ * Class with methods to read log events from input source.
+ */
 public class FileReader implements InputReader {
     private final String filePath;
 
